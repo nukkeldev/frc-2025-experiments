@@ -75,6 +75,9 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.16'
     implementation 'com.lmax:disruptor:3.4.4' // Async
 
+    // Contracts
+    implementation 'org.jetbrains:annotations:24.0.0'
+
     // Unit Testing
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
